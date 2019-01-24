@@ -1,0 +1,76 @@
+body, html {
+  background :#799085;
+  height: 100%;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 25px;
+  background: #D0944D;
+  color: white;
+  margin: 5px;
+  padding: 16px;
+}
+
+.content {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 15% 60% 25%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburgers {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input input {
+  width: 25%;
+}
+
+.not-devoured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px dashed #D0944D;
+  
+}
+
+.not-devoured li, .devoured li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 28px;
+  padding: 10px;
+  margin: 2px;
+  border: 2px solid #BDD5C7;
+  border-radius: 5px;
+  background: #BDD5C7;
+  height: 50px;
+}
+
+
+
+.devoured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
